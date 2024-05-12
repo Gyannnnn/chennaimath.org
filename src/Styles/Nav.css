@@ -1,5 +1,5 @@
 .nav{
-    height: 34.5vh;
+    height: 26.5vh;
     width: 100vw;
     background: #FFDEAD;
     display: flex;
@@ -32,7 +32,6 @@
     display: flex;
     justify-content: space-around;
     color: #000;
-    font-size: 1.2rem;
     font-weight: 500;
 }
 .contact .left{
@@ -46,7 +45,7 @@
     gap: 20px;
 }
 .nav .logo img{
-    height: 13vh;
+    height: 9vh;
 
 }
 .hb{
@@ -70,7 +69,7 @@
     font-size: 1rem;
     font-weight: 600;
     font-family: ltf;
-    padding: 5px 15px;
+    padding: 5px 5px;
     
 }
 .navigation-buttons a:hover{
@@ -78,6 +77,5 @@
     border-radius: 2px;
     /* transition: all 0.5s ease-in-out; */
     color: #fff;
-    font-weight: 500;
     
 }
