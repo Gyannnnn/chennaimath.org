@@ -3,7 +3,8 @@ import Header from './Components/Navbar';
 import Slider from './Components/Slider';
 import Welcome from './Components/Welcome';
 import Currentevents from './Components/Currentevents';
-
+import Footer from './Components/Footer';
+import Credit from './Components/Credit';
 function App() {
   return (
     <>
@@ -11,6 +12,8 @@ function App() {
     <Slider/>
     <Welcome/>
     <Currentevents/>
+    <Footer/>
+    <Credit/>
     </>
   );
 }

@@ -1,0 +1,104 @@
+footer {
+    height: 95vh;
+    width: 100vw;
+    background: #FFDEAD;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-top: 1px solid black;
+}
+
+#left-info {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin-bottom: 10px;
+}
+
+#infoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#left-info h1 {
+    font-family: ltf;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+#left-info .containers {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+}
+
+#left-info .containers {
+    display: flex;
+}
+
+#left-info .icon {
+    font-size: 1.5rem;
+}
+
+#left-info .containers .info p {
+    color: #000;
+    font-family: ltf;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+#left-info .containers .info {
+    width: 200px;
+    color: #000;
+    text-align: start;
+}
+
+#site-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+#map-section {
+    width: 50%;
+}
+
+.map iframe {
+    width: 90%;
+    height: 60vh;
+}
+
+#right-info {
+    height: 65%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#right-info h1 {
+    font-family: ltf;
+    font-size: 2rem;
+    border-bottom: 1px solid #000;
+}
+
+#right-info #site-links a {
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-family: ltf;
+    font-weight: 900;
+    font-size: 1.2rem;
+
+}
