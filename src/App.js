@@ -6,6 +6,7 @@ import Currentevents from './Components/Currentevents';
 import Footer from './Components/Footer';
 import Credit from './Components/Credit';
 import Quote from './Components/Quote';
+import Arti from './Components/Arti';
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
     <Slider/>
     <Welcome/>
     <Currentevents/>
+    <Arti/>
     <Quote/>
     <Footer/>
     <Credit/>
