@@ -7,22 +7,22 @@ const Footer = () => {
                 <h1>Visit Us</h1>
                 <div id='infoContainer' >
                     <div className="containers">
-                        <div className="icon"><i class="fa-solid fa-house" style={{ color: '#EA7704' }}    ></i></div>
+                        <div className="icon"><i className="fa-solid fa-house" style={{ color: '#EA7704' }}    ></i></div>
                         <div className="info"><p>Sri Ramakrishna Math
                             31, Ramakrishna Math Road,
                             Mylapore
                             Chennai 600004, India</p></div>
                     </div>
                     <div className="containers">
-                        <div className="icon"><i class="fa-solid fa-envelope" style={{ color: '#EA7704' }}  ></i></div>
+                        <div className="icon"><i className="fa-solid fa-envelope" style={{ color: '#EA7704' }}  ></i></div>
                         <div className="info"><p>mail@chennaimath.org</p></div>
                     </div>
                     <div className="containers">
-                        <div className="icon"><i class="fa-solid fa-phone" style={{ color: '#EA7704' }}></i></div>
+                        <div className="icon"><i className="fa-solid fa-phone" style={{ color: '#EA7704' }}></i></div>
                         <div className="info"><p>+91-44-24621110</p></div>
                     </div>
                     <div className="containers">
-                        <div className="icon"><i class="fa-regular fa-clock" style={{ color: '#EA7704' }}></i></div>
+                        <div className="icon"><i className="fa-regular fa-clock" style={{ color: '#EA7704' }}></i></div>
                         <div className="info"><p>Temple Timings
                             05.00 am to 11:45am
                             03:00 pm to 09:00pm</p></div>
@@ -36,7 +36,7 @@ const Footer = () => {
                     </div>
                     <div className="containers">
                         <div className="icon">
-                        <i class="fa-brands fa-telegram fa-shake"  style={{ color: '#EA7704' }}></i>
+                        <i className="fa-brands fa-telegram fa-shake"  style={{ color: '#EA7704' }}></i>
                         </div>
 
                         <div className="info"><p>Join Telegram Chanel</p></div>
