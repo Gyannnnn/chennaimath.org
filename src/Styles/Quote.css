@@ -1,48 +1,45 @@
-#Quote-section{
-    height: 80vh;
-    width: 100vw;
-    background: #FFF8DC;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+#Quote-section {
+  height: 80vh;
+  width: 100vw;
+  background: #fff8dc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-#Quote-section h1{
-    font-family: bdf;
-    border-bottom: 1px solid black;
-    font-size: 2.5rem;
-    padding-bottom: 10px;
-    font-weight: bolder;
+#Quote-section h1 {
+  font-family: bdf;
+  border-bottom: 1px solid black;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+  font-weight: bolder;
 }
-#quote-div{
-    display: flex;
-    gap: 20px;
-    
+#quote-div {
+  display: flex;
+  gap: 20px;
 }
 
-#quote-div img{
-    height: 55vh;
-    
+#quote-div img {
+  height: 55vh;
 }
-#Quote-section button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 40px;
-    border: none;
-    background: #CE6D06;
-    color: #fff;
-    gap: 10px;
-    border-radius: 5px;
-    animation:0.5s ease-in;
+#Quote-section button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 40px;
+  border: none;
+  background: #ce6d06;
+  color: #fff;
+  gap: 10px;
+  border-radius: 5px;
+  animation: 0.5s ease-in;
 }
-#Quote-section button:hover{
-    background: #8b4c09;
-
+#Quote-section button:hover {
+  background: #8b4c09;
 }
-#Quote-section button p{
-    font-family: bdf;
-    font-size: 1.2rem;
+#Quote-section button p {
+  font-family: bdf;
+  font-size: 1.2rem;
 }

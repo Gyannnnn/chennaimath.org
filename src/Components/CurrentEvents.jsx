@@ -1,20 +1,20 @@
-import React from 'react'
-import '../Styles/CurrentEvents.css'
+import React from "react";
+import "../Styles/CurrentEvents.css";
 
 const CurrentEvents = () => {
   const links = [
     "https://www.youtube.com/embed/u31qwQUeGuM?si=VgwBAJ696yt-xZ-o",
-    "https://www.youtube.com/embed/u31qwQUeGuM?si=VgwBAJ696yt-xZ-o"
-  ]
+    "https://www.youtube.com/embed/u31qwQUeGuM?si=VgwBAJ696yt-xZ-o",
+  ];
 
-  links.forEach(link => console.log(link))
-  
+  links.forEach((link) => console.log(link));
+
   return (
     <div id="currentevents">
-        <div className="header">
-          <h1>Current Events</h1>
-        </div>
-        {links.map(link =>
+      <div className="header">
+        <h1>Current Events</h1>
+      </div>
+      {links.map((link) => (
         <iframe
           width="1120"
           height="630"
@@ -25,9 +25,9 @@ const CurrentEvents = () => {
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
         ></iframe>
-        )}
+      ))}
     </div>
-  )
-}
+  );
+};
 
-export default CurrentEvents
+export default CurrentEvents;

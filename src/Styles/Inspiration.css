@@ -1,23 +1,37 @@
-#inspiration{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100vw;
-    background: #FFDEAD;
-    gap: 20px;
+#inspiration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  background: #ffdead;
+  gap: 20px;
 }
 
-.header {
-    border-bottom: 1px solid black;
+#inspiration .header {
+  border-bottom: 1px solid black;
 }
 
-.header h1 {
-    font-family: bdf;
-    font-size: 3em;
+#inspiration .header h1 {
+  font-family: bdf;
+  font-size: 3em;
 }
 
-.contents {
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(3, auto);
+#inspiration .contents {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, auto);
+}
+
+#inspiration img {
+  width: 30vw;
+}
+
+@media only screen and (max-width: 600px) {
+  #inspiration .contents {
+    grid-template-columns: repeat(1, auto);
+  }
+
+  #inspiration img {
+    width: 90vw;
+  }
 }

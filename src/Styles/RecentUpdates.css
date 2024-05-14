@@ -1,27 +1,41 @@
-#updates{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100vw;
-    background: #FFDEAD;
-    gap: 20px;
+#updates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  background: #ffdead;
+  gap: 20px;
 }
 
-.header {
-    border-bottom: 1px solid black;
+#updates .header {
+  border-bottom: 1px solid black;
 }
 
-.header h1 {
-    font-family: bdf;
-    font-size: 3em;
+#updates .header h1 {
+  font-family: bdf;
+  font-size: 3em;
 }
 
-.contents {
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(6, auto);
+#updates .contents {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(6, auto);
 }
 
-.box {
-    text-align: center;
+#updates img {
+  width: 18vw;
+}
+
+#updates .box {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  #updates .contents {
+    grid-template-columns: repeat(1, auto);
+  }
+
+  #updates img {
+    width: 90vw;
+  }
 }

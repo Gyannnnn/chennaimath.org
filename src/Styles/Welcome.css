@@ -1,89 +1,84 @@
-#welcome{
-    height: 65.5vh;
-    width: 100vw;
-    background: #FFDEAD;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-
+#welcome {
+  height: 65.5vh;
+  width: 100vw;
+  background: #ffdead;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
-.w1 h1{
-    padding: 10px;
-    border-bottom: 1px solid black;
-    font-family: bdf;
-    font-size: 3rem;
+.w1 h1 {
+  padding: 10px;
+  border-bottom: 1px solid black;
+  font-family: bdf;
+  font-size: 3rem;
 }
-.w1 div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom: 1px solid black;
-    padding: 10px;
-    border-inline-width: 10px;
+.w1 div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  border-inline-width: 10px;
 }
-.w1 div h1{
-    font-size: 1rem;
-    font-family: ltf;
-    border: none;
-    font-weight: 1000;
-
+.w1 div h1 {
+  font-size: 1rem;
+  font-family: ltf;
+  border: none;
+  font-weight: 1000;
 }
-.w2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+.w2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.w2 div h1{
-    font-family:bdf ;
-    font-size: 3rem;
-    border-bottom: 1px solid black;
+.w2 div h1 {
+  font-family: bdf;
+  font-size: 3rem;
+  border-bottom: 1px solid black;
 }
-#quote{
-    margin-top: 10px;
-    margin-bottom: 20px;
-    border-left: 10px solid #78C0A8;
-    border-right: 10px solid #78C0A8;
-    height: 30vh;
-    width: 65vw;
-    background: #ffffff77;
-    border-radius: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0 20px;
-
+#quote {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-left: 10px solid #78c0a8;
+  border-right: 10px solid #78c0a8;
+  height: 30vh;
+  width: 65vw;
+  background: #ffffff77;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 20px;
 }
-#quote h1{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style: italic;
-    border: none;
-    font-size: 2.5rem;
-    font-weight: 100;
-    
+#quote h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  border: none;
+  font-size: 2.5rem;
+  font-weight: 100;
 }
-#quote h1 span{
-    color: #78C0A8;
-    font-size: 3rem;
-    font-weight: 900;
+#quote h1 span {
+  color: #78c0a8;
+  font-size: 3rem;
+  font-weight: 900;
 }
-#quote h3{
-    position:static;
-    right:0%;
+#quote h3 {
+  position: static;
+  right: 0%;
 }
-#span{
-    margin-left: 650px;
+#span {
+  margin-left: 650px;
 }
-.lower-quote{
-    width: 100%;
-    display: flex;    
-    justify-content: space-between;
-    margin-right: 20px;
+.lower-quote {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
 }
-.lower-quote h3{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style: italic; 
+.lower-quote h3 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
 }
