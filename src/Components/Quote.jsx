@@ -15,7 +15,7 @@ const Quote = () => {
                 <img src={quote2} alt="" />
             </div>
         </div>
-        <button><i class="fa-regular fa-lightbulb"></i><p>More Quote</p></button>
+        <button><i className="fa-regular fa-lightbulb"></i><p>More Quote</p></button>
     </div>
   )
 }

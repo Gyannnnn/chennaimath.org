@@ -2,7 +2,10 @@ import './App.css';
 import Header from './Components/Navbar';
 import Slider from './Components/Slider';
 import Welcome from './Components/Welcome';
-import Currentevents from './Components/Currentevents';
+import CurrentEvents from './Components/CurrentEvents';
+import Announcements from './Components/Announcements';
+import Inspiration from './Components/Inspiration';
+import RecentUpdates from './Components/RecentUpdates';
 import Footer from './Components/Footer';
 import Credit from './Components/Credit';
 import Quote from './Components/Quote';
@@ -13,7 +16,10 @@ function App() {
     <Header />
     <Slider/>
     <Welcome/>
-    <Currentevents/>
+    <CurrentEvents/>
+    <Announcements />
+    <Inspiration />
+    <RecentUpdates />
     <Arti/>
     <Quote/>
     <Footer/>
