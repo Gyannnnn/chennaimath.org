@@ -9,13 +9,13 @@ const Slider = () => {
   return (
     <div className="slider">
       <Carousel
-        infiniteLoop
-        autoPlay
+        infiniteLoop={true}
+        autoPlay={true}
         showStatus={false}
-        interval={1000}
+        interval={2000}
         showIndicators={false}
         ariaLabel="false"
-        showArrows={false}
+        showArrows={true}
         showThumbs={false}
       >
         <div>

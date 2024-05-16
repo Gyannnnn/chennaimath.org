@@ -15,3 +15,8 @@
   font-family: bdf;
   font-size: 3em;
 }
+
+#currentevents iframe {
+  width: 90vw;
+  height: 55vw;
+}

@@ -7,7 +7,6 @@ import Announcements from "./Components/Announcements";
 import Inspiration from "./Components/Inspiration";
 import RecentUpdates from "./Components/RecentUpdates";
 import Footer from "./Components/Footer";
-import Credit from "./Components/Credit";
 import Quote from "./Components/Quote";
 import Arti from "./Components/Arti";
 function App() {
@@ -23,7 +22,6 @@ function App() {
       <Arti />
       <Quote />
       <Footer />
-      <Credit />
     </>
   );
 }
