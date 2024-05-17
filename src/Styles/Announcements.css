@@ -1,23 +1,38 @@
-#announcements{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100vw;
-    background: #FFDEAD;
-    gap: 20px;
+#announcements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  background: #ffdead;
+  gap: 20px;
 }
 
-.header {
-    border-bottom: 1px solid black;
+#announcements .header {
+  border-bottom: 1px solid black;
 }
 
-.header h1 {
-    font-family: bdf;
-    font-size: 3em;
+#announcements .header h1 {
+  font-family: bdf;
+  font-size: 3em;
+  text-align: center;
 }
 
-.contents {
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(3, auto);
+#announcements .contents {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, auto);
+}
+
+#announcements img {
+  width: 30vw;
+}
+
+@media only screen and (max-width: 600px) {
+  #announcements .contents {
+    grid-template-columns: repeat(1, auto);
+  }
+
+  #announcements img {
+    width: 90vw;
+  }
 }

@@ -1,17 +1,22 @@
-#currentevents{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100vw;
-    background: #FFDEAD;
-    gap: 20px;
+#currentevents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  background: #ffdead;
+  gap: 20px;
 }
 
 .header {
-    border-bottom: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .header h1 {
-    font-family: bdf;
-    font-size: 3em;
+  font-family: bdf;
+  font-size: 3em;
+}
+
+#currentevents iframe {
+  width: 90vw;
+  height: 55vw;
 }
