@@ -43,8 +43,11 @@ const Nav = () => {
       <div className="hb">
         <div className="logo">
           <img src={img} alt="" />
+          <div className="menu-icon">
+          <i class="fa-solid fa-bars"></i>
+          </div>
         </div>
-        <div className="navigation-buttons">
+        <div id="links" className="navigation-buttons">
           <a id="home" href="#home">
             Home{" "}
           </a>
