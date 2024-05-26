@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/Nav.css";
 import img from "../Assets/Header.jpg";
-const Nav = () => {
+const Nav = ({sidebar, Setsidebar}) => {
   return (
     <div className="nav">
       <div className="contact">
@@ -14,7 +14,7 @@ const Nav = () => {
           </div>
           <div className="left2">
             <span>
-              <i className="fa-solid fa-phone"></i>
+              <i className="fa-solid fa-phone" onClick={()=>Setsidebar(pv=>pv===false?true:false)} ></i>
             </span>
             +91-44-24621110
           </div>
@@ -47,7 +47,7 @@ const Nav = () => {
           <i class="fa-solid fa-bars"></i>
           </div>
         </div>
-        <div id="links" className="navigation-buttons">
+        <div id="links" className={`navigation-buttons ${sidebar?'':'extended-sidebar'}`}>
           <a id="home" href="#home">
             Home{" "}
           </a>

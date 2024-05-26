@@ -9,10 +9,12 @@ import RecentUpdates from "./Components/RecentUpdates";
 import Footer from "./Components/Footer";
 import Quote from "./Components/Quote";
 import Arti from "./Components/Arti";
+import { useState } from "react";
 function App() {
+  const[sidebar,Setsidebar]=useState(true)
   return (
     <>
-      <Header />
+      <Header  sidebar={sidebar} Setsidebar={Setsidebar} />
       <Slider />
       <Welcome />
       <CurrentEvents />
