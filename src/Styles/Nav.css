@@ -99,30 +99,14 @@
   color: #fff;
 }
 
-.extended-sidebar {
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  background-color: #000;
-  padding: 10px;
-  height: 10vw;
-}
-.extended-nav{
-  height: 80vh;
-  background: red;
-  z-index: 99;
 
-}
 
 
 
 
 @media (max-width:991px) {
   .nav {
-    height: 12vh;
+    height: 4vh;
 
   }
 
@@ -133,11 +117,29 @@
   .navigation-buttons {
     display: none;
   }
-
-  #links>a {
+  #links>a{
     display: none;
-
   }
+
+  
+  .extended-nav{
+    height: 40vh;    
+    z-index: 99;
+    justify-content: space-between;
+    animation: 0.5s ease;
+  
+  }
+  .extended-nav #links{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .extended-nav #links a{
+    display: flex;
+    flex-direction: column;
+  }
+  
 
 
   .nav .logo img {
