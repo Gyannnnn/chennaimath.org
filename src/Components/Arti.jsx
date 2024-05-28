@@ -6,33 +6,29 @@ import img3 from "../Assets/Worship – 7.30 am to 9.00 am.jpg";
 
 const Arti = () => {
   return (
-    <div id="arti">
-      <div className="heading-container">
-        <h1>Daily Worship & Arti</h1>
-      </div>
-      <div className="timing">
-        <div className="timing-container">
-          <h1 id="orange">Mangala Arati – 5.00 am</h1>
-          <div>
-            <img src={img2} alt="" />
+    <div id="arti-section">
+      <h1>Daily Worship & Arati</h1>
+      <div id="timing">
+        <div id="timing-container">
+          <div className="text-box1"><h3>Mangala Arati – 5.00 am</h3></div>
+          <div className="img">
+            <img src={img1} alt="" srcset="" />
           </div>
         </div>
-
-        {/* ATHI H1 TAKU ID DEICHI .... BACKGROUND COLOR CHANGE KARIBA PAIN ... JADI TUME AAU KICHI STYLE RE CHANGE KARI PARIBO THEN KARIDEBO ... .... */}
-
-        <div className="timing-container">
-          <h1 id="green">Worship – 7.30 am to 9.00 am</h1>
-          <div>
-            <img src={img3} alt="" />
+        <div id="timing-container">
+          <div className="text-box2"><h3>Worship – 7.30 am to 9.00 am</h3></div>
+          <div className="img">
+            <img src={img2} alt="" srcset="" />
           </div>
         </div>
-        <div className="timing-container">
-          <h1 id="pink">Evening Arati – 6.30 pm</h1>
-          <div>
-            <img src={img1} alt="" />
+        <div id="timing-container">
+          <div className="text-box3"><h3>Evening Arati – 6.30 pm</h3></div>
+          <div className="img">
+            <img src={img3} alt="" srcset="" />
           </div>
         </div>
       </div>
+
     </div>
   );
 };

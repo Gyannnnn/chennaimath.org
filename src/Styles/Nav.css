@@ -120,13 +120,12 @@
   #links>a{
     display: none;
   }
-
-  
   .extended-nav{
     height: 40vh;    
     z-index: 99;
     justify-content: space-between;
     animation: 0.5s ease;
+   
   
   }
   .extended-nav #links{
@@ -137,11 +136,9 @@
 
   .extended-nav #links a{
     display: flex;
+    font-size: 2vw;
     flex-direction: column;
   }
-  
-
-
   .nav .logo img {
     height: 4vw;
   }
@@ -150,10 +147,18 @@
     display: block;
   }
 
-  .logo {
+  .nav .logo {
+    padding: 0 30px;
     width: 100vw;
     height: 6vh;
-    gap: 60vw;
+    justify-content: space-between;
   }
 
+}
+
+@media (max-width:600px){
+  .hb .logo img{
+    height: 3vh;
+  }
+  
 }
