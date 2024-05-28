@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Styles/Nav.css";
 import img from "../Assets/Header.jpg";
-const Nav = ({sidebar, Setsidebar}) => {
+const Nav = ({Sidebar,SetSidebar}) => {
+  
   return (
-    <div className="nav">
+    <div className={`nav  ${Sidebar?'':'extended-nav'}`}>
       <div className="contact">
         <div className="left">
           <div className="left1">
@@ -14,7 +15,7 @@ const Nav = ({sidebar, Setsidebar}) => {
           </div>
           <div className="left2">
             <span>
-              <i className="fa-solid fa-phone" onClick={()=>Setsidebar(pv=>pv===false?true:false)} ></i>
+              <i className="fa-solid fa-phone"></i>
             </span>
             +91-44-24621110
           </div>
@@ -44,13 +45,11 @@ const Nav = ({sidebar, Setsidebar}) => {
         <div className="logo">
           <img src={img} alt="" />
           <div className="menu-icon">
-          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-bars" onClick={()=>SetSidebar(prev => prev === false ? true :false )} ></i>
           </div>
         </div>
-        <div id="links" className={`navigation-buttons ${sidebar?'':'extended-sidebar'}`}>
-          <a id="home" href="#home">
-            Home{" "}
-          </a>
+        <div id="links" className={`navigation-buttons ${Sidebar?"":"extended-sidebar"}`}>
+          <a id="home" href="#home"> Home</a>
           <a href="#home">About us</a>
           <a href="#home">Activities</a>
           <a href="#home">Publications</a>

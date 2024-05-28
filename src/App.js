@@ -10,11 +10,12 @@ import Footer from "./Components/Footer";
 import Quote from "./Components/Quote";
 import Arti from "./Components/Arti";
 import { useState } from "react";
+
 function App() {
-  const[sidebar,Setsidebar]=useState(true)
+ const[Sidebar,SetSidebar]=useState(true) 
   return (
     <>
-      <Header  sidebar={sidebar} Setsidebar={Setsidebar} />
+      <Header Sidebar={Sidebar} SetSidebar={SetSidebar} />
       <Slider />
       <Welcome />
       <CurrentEvents />
