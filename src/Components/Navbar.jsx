@@ -49,15 +49,15 @@ const Nav = ({Sidebar,SetSidebar}) => {
           </div>
         </div>
         <div id="links" className={`navigation-buttons ${Sidebar?"":"extended-sidebar"}`}>
-          <a id="home" href="#home"> Home</a>
-          <a href="#home">About us</a>
-          <a href="#home">Activities</a>
-          <a href="#home">Publications</a>
-          <a href="#home">Media</a>
-          <a href="#home">Become a monk</a>
-          <a href="#home">Donate</a>
-          <a href="#home">Sale of Immovable Properties</a>
-          <a href="#home">More</a>
+          <a id="home" href="/"> Home</a>
+          <a href="/about-us">About us</a>
+          <a href="/activities">Activities</a>
+          <a href="/publications">Publications</a>
+          <a href="/media">Media</a>
+          <a href="/monk">Become a monk</a>
+          <a href="/donate">Donate</a>
+          <a href="/sale">Sale of Immovable Properties</a>
+          <a href="/more">More</a>
         </div>
       </div>
     </div>

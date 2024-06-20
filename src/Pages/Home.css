@@ -7,11 +7,11 @@ body{
 }
 @font-face {
   font-family: ltf;
-  src: url(./Assets/source-sans-pro.light.ttf);
+  src: url(../Assets/source-sans-pro.light.ttf);
 }
 @font-face {
   font-family: bdf;
-  src: url(./Assets/font_latin.woff2);
+  src: url(../Assets/font_latin.woff2);
 }
 body {
   overflow-x: hidden;
